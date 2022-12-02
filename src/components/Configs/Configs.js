@@ -8,17 +8,12 @@ import './Configs.css';
 class Configs extends React.Component {
 
     state = {
-        configs: [
-            {id: '1', appName: 'MAKEUP Cosmetic', databaseType: 'Google Spanner', credentials: 'application-real-data-read-only.json',
-                url:  'jdbc:cloudspanner:/projects/makeup-cosmetics/instances/prod/databases/makeup-sales-db', dataQuery: 'SALES_RD_READ_QUERY.sql'},
-            {id: '2', appName: 'Highlander', databaseType: 'Google Spanner', credentials: 'application-default.json',
-                url:  'jdbc:cloudspanner:/projects/highlander/instances/non-prod/databases/highlander-sales-db', dataQuery: 'HIGHLANDER_SALES_RD_READ_QUERY.sql'}
-        ],
+        configs: [],
         addConfig: false
     }
 
     componentDidMount() {
-        /*fetch(`http://localhost:8080/real-data/database-configs/1`)
+        fetch(`http://localhost:8080/real-data/database-configs/1`)
             .then(response => response.json())
             .then(data => {
                 this.setState(({configInfo}) => {
@@ -26,7 +21,7 @@ class Configs extends React.Component {
                         configs: data
                     }
                 });
-            });*/
+            });
     }
 
     onAddConfig = () => {

@@ -9,13 +9,11 @@ class Analysis extends React.Component {
     state = {
         apps: [],
         selectedApp: null,
-        reports: [
-            {id: '1', name: 'крінж', dataStudioUrl: 'https://datastudio.google.com/embed/reporting/ede6f5ab-401c-46c8-9d16-fd05f950a3fc/page/tEnnC'}
-        ]
+        reports: []
     }
 
     componentDidMount() {
-        /*fetch(`http://localhost:8080/real-data/apps/1`)
+        fetch(`http://localhost:8080/real-data/apps/1`)
             .then(response => response.json())
             .then(data => {
                 this.setState(() => {
@@ -23,7 +21,7 @@ class Analysis extends React.Component {
                         apps: data
                     }
                 });
-            });*/
+            });
     }
 
     onAppChange = (event) => {

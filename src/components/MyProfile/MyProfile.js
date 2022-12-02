@@ -7,15 +7,11 @@ import './MyPofile.css';
 class MyProfile extends React.Component {
 
     state = {
-        user: {
-            email: 'maryna.melnychuk.mknus.2021@lpnu.ua',
-            firstName: 'Марина',
-            lastName: 'Мельничук'
-        },
+        user: {}
     }
 
     componentDidMount() {
-        /*fetch(`http://localhost:8080/real-data/users/1`)
+        fetch(`http://localhost:8080/real-data/users/1`)
             .then(response => response.json())
             .then(data => {
                 this.setState(() => {
@@ -23,7 +19,7 @@ class MyProfile extends React.Component {
                         user: data
                     }
                 });
-            });*/
+            });
     }
 
     render() {

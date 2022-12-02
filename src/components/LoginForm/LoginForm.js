@@ -12,7 +12,7 @@ class LoginForm extends React.Component {
 
     onSignInButtonClick = () => {
         if (this.state.email && this.state.password) {
-            /*const requestOptions = {
+            const requestOptions = {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({
@@ -27,7 +27,7 @@ class LoginForm extends React.Component {
                         return {
                             failedLogin: true
                         }
-                    }));*/
+                    }));
             this.props.navigation('/main');
         }
     }

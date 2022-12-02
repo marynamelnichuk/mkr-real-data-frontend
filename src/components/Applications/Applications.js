@@ -8,16 +8,12 @@ import CreateAppForm from "../CreateAppForm/CreateAppForm";
 class Applications extends React.Component {
 
     state = {
-        apps: [
-            {id: '1', name: 'MAKEUP Cosmetic', creationDate: '12.11.2022', description: 'Інтернет-магазин косметичних товарів MAKEUP'},
-            {id: '2', name: 'MAKEUP Home items', creationDate: '16.11.2022', description: 'Інтернет-магазин товарів для дому MAKEUP'},
-            {id: '3', name: 'Highlander', creationDate: '19.11.2022', description: 'Інтернет-магазин туристичного спорядження Highlander'}
-        ],
+        apps: [],
         addApp: false
     }
 
     componentDidMount() {
-        /*fetch(`http://localhost:8080/real-data/apps/1`)
+        fetch(`http://localhost:8080/real-data/apps/1`)
             .then(response => response.json())
             .then(data => {
                 this.setState(({appInfo}) => {
@@ -25,7 +21,7 @@ class Applications extends React.Component {
                         apps: data
                     }
                 });
-            });*/
+            });
     }
 
     onAddApp = () => {

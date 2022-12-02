@@ -46,7 +46,6 @@ class CreateConfigForm extends React.Component {
     }
 
     onDataQueryChange = (dataQuery) => {
-        console.log('on sql: ' + dataQuery);
         this.setState(() => {
             return {
                 dataQuery: dataQuery
