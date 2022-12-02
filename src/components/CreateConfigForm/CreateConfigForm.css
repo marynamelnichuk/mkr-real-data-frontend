@@ -1,0 +1,17 @@
+.create-config-form {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.create-config-form-input-with-label {
+    padding-bottom: 1%;
+}
+
+.create-config-form-btn {
+    float: right;
+    margin-top: 2%;
+}
+
+.create-config-after-file-input {
+    padding-top: 1%;
+}

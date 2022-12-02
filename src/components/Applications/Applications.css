@@ -1,0 +1,26 @@
+.apps-container {
+    margin: 5%;
+}
+
+.create-app-text {
+    padding: 2%;
+}
+
+.create-app-button {
+    width: 30%;
+    float: right;
+}
+
+.delete-app-button {
+    margin-right: 34%;
+    margin-left: 36%;
+}
+
+.delete-th {
+    text-align:center;
+}
+
+.table-header th {
+    padding-left: 1%;
+    padding-bottom: 0.3%;
+}

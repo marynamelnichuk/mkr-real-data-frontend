@@ -1,0 +1,14 @@
+.choose-app-section {
+    margin-bottom: 2%;
+    width: 30%;
+}
+
+.analysis-container h2 {
+    margin-bottom: 1%;
+}
+
+.reports-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}

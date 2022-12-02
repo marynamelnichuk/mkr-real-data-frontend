@@ -1,0 +1,12 @@
+.create-app-form {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.create-app-form-input-with-label {
+    padding-bottom: 1%;
+}
+
+.create-app-form-btn {
+    float: right;
+}

@@ -1,0 +1,24 @@
+.my-profile-h2 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.my-profile-form-label {
+    font-weight: bold;
+}
+
+.my-profile-card-header {
+    background: #E4E6E7;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.my-profile-image {
+    max-width: 100%;
+}
+
+.my-profile-card-container {
+    width: 30%;
+    margin: auto;
+}
